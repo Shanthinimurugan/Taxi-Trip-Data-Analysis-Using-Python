@@ -66,7 +66,7 @@ Matplotlib / Pandas Visualizations
 
 1. Line Chart – Fare Over Time
 
-Analyzed fare values over time using the pickup timestamp.
+Analyzed fare values over time using the pickup timestamp.  
 **Insight:** Fare values fluctuate over time, but there is no clear overall upward or downward trend. Most fares remain relatively low, with occasional high-fare trips.
 
 2. Bar Chart – Total Fare by Pickup Borough
@@ -76,36 +76,36 @@ Pickup Borough	Total Fare
 Bronx	          $2,078.91
 Brooklyn	      $6,327.48
 Manhattan	      $59,426.42
-Queens	        $16,382.06
+Queens	        $16,382.06  
 **Insight:** Manhattan generated the highest total fare among the recorded pickup boroughs. However, total fare is influenced by the number of trips as well as fare amounts.
 
 3. Pie Chart – Payment Method
    
 Analyzed the distribution of trips by payment method.
 - Credit Card: 4,621 trips (~71.8%)  
-- Cash: 1,812 trips (~28.2%)  
+- Cash: 1,812 trips (~28.2%)     
 **Insight:** Credit card was the dominant payment method in the dataset.
   
 4. Histogram – Trip Distance
    
-Analyzed the distribution of taxi trip distances.
+Analyzed the distribution of taxi trip distances.  
 **Insight:** Most trips are short-distance trips, while fewer long-distance trips create a right-skewed distribution. The maximum observed distance is approximately 36.7 miles.
 
 6. Box Plot – Tip by Pickup Borough
 
-Compared tip distributions across pickup boroughs.
+Compared tip distributions across pickup boroughs.  
 **Insight:** Most tip amounts are concentrated at lower values, while some higher-value tips appear as outliers.
 
 ## 📈 Seaborn Visualizations
 
 8. Count Plot – Pickup Borough
    
-Analyzed the number of trips recorded for each pickup borough.
+Analyzed the number of trips recorded for each pickup borough.  
 **Insight:** Manhattan is the most frequent pickup borough, accounting for the majority of recorded pickup locations in this dataset.
 
 9. Scatter Plot – Distance vs Fare
  
-Examined the relationship between trip distance and fare.
+Examined the relationship between trip distance and fare.  
 **Insight:** There is a strong positive relationship between distance and fare. The correlation between distance and fare is approximately 0.920, indicating that longer trips generally have higher fares.
 
 10. Heatmap – Correlation Analysis
@@ -117,7 +117,7 @@ Distance – Fare	0.920
 Distance – Total	0.905
 Tolls – Total	0.683
 Tip – Total	0.646
-Distance – Tip	0.453
+Distance – Tip	0.453  
 **Insight:** Fare and total have the strongest relationship, followed by distance and fare. Distance and total also show a strong positive relationship.
 
 11. Pair Plot
@@ -126,12 +126,12 @@ Explored pairwise relationships between:
 - Distance
 - Fare
 - Tip
-- Total
+- Total  
 **Insight:** The pair plot visually confirms strong relationships among distance, fare, and total, while tip has comparatively weaker relationships with the other variables.
   
 12. Violin Plot – Fare by Payment Method
 
-Compared fare distributions for cash and credit-card transactions.
+Compared fare distributions for cash and credit-card transactions.  
 **Insight:** The violin plot shows the distribution, concentration, and spread of fares across payment methods and helps identify the presence of higher-fare trips.
 
 # 🔍 Key Insights
@@ -161,9 +161,24 @@ Overall, the project demonstrates the use of data cleaning, exploratory data ana
 - Develop an interactive dashboard using Power BI.  
 - Build a machine learning model to predict taxi fares.  
 - Analyze unusual trips and potential data-quality issues in greater detail.
-  
+
+## ✅Conclusion
+
+The Taxi Trip Data Analysis project demonstrates how Python can be used to explore and understand real-world transportation data. The analysis reveals that most trips are short-distance, fares generally increase with trip distance, and toll charges are uncommon. Visualizations such as histograms, scatter plots, box plots, and violin plots provide a clear understanding of distributions, relationships, variability, and outliers. Overall, the analysis converts raw taxi trip data into useful insights that can support better understanding of trip and fare patterns.
+
 ### 👩‍💻 Author
 
 Shanthini
 Aspiring Data Analyst
 Skills: Python | Pandas | NumPy | Matplotlib | Seaborn | Exploratory Data Analysis | Data Visualization
+
+## 📄 License
+
+This project is created for educational and assignment purposes only.
+
+## 🙏 Acknowledgments
+
+I would like to thank:
+- Entri Elevate Course Support for providing guidance, learning resources, and support throughout this project.
+- Python Documentation for valuable references and support in understanding Python, Pandas, NumPy, Matplotlib, and Seaborn.
+- Google Colab for providing an interactive environment to practice, execute, and analyze Python code.
