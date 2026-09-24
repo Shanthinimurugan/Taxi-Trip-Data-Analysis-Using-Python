@@ -72,7 +72,7 @@ Analyzed fare values over time using the pickup timestamp.
 2. Bar Chart – Total Fare by Pickup Borough
    
 Compared the total fare generated from different pickup boroughs.
-Pickup Borough	Total Fare
+Pickup Borough and Total Fare is
 Bronx	          $2,078.91
 Brooklyn	      $6,327.48
 Manhattan	      $59,426.42
@@ -91,24 +91,24 @@ Analyzed the distribution of trips by payment method.
 Analyzed the distribution of taxi trip distances.  
 **Insight:** Most trips are short-distance trips, while fewer long-distance trips create a right-skewed distribution. The maximum observed distance is approximately 36.7 miles.
 
-6. Box Plot – Tip by Pickup Borough
+5. Box Plot – Tip by Pickup Borough
 
 Compared tip distributions across pickup boroughs.  
 **Insight:** Most tip amounts are concentrated at lower values, while some higher-value tips appear as outliers.
 
 ## 📈 Seaborn Visualizations
 
-8. Count Plot – Pickup Borough
+6. Count Plot – Pickup Borough
    
 Analyzed the number of trips recorded for each pickup borough.  
 **Insight:** Manhattan is the most frequent pickup borough, accounting for the majority of recorded pickup locations in this dataset.
 
-9. Scatter Plot – Distance vs Fare
+7. Scatter Plot – Distance vs Fare
  
 Examined the relationship between trip distance and fare.  
 **Insight:** There is a strong positive relationship between distance and fare. The correlation between distance and fare is approximately 0.920, indicating that longer trips generally have higher fares.
 
-10. Heatmap – Correlation Analysis
+8. Heatmap – Correlation Analysis
 
 Analyzed relationships among numerical variables.
 Relationship	Correlation
@@ -120,7 +120,7 @@ Tip – Total	0.646
 Distance – Tip	0.453  
 **Insight:** Fare and total have the strongest relationship, followed by distance and fare. Distance and total also show a strong positive relationship.
 
-11. Pair Plot
+9. Pair Plot
 
 Explored pairwise relationships between:
 - Distance
@@ -129,7 +129,7 @@ Explored pairwise relationships between:
 - Total  
 **Insight:** The pair plot visually confirms strong relationships among distance, fare, and total, while tip has comparatively weaker relationships with the other variables.
   
-12. Violin Plot – Fare by Payment Method
+10. Violin Plot – Fare by Payment Method
 
 Compared fare distributions for cash and credit-card transactions.  
 **Insight:** The violin plot shows the distribution, concentration, and spread of fares across payment methods and helps identify the presence of higher-fare trips.
